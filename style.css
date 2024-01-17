@@ -82,3 +82,8 @@ main{
     line-height: 21.6px; /* 120% */
     text-transform: capitalize;
 }
+
+form {
+    display: block;
+    margin-top: 0em;
+}
