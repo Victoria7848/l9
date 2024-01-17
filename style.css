@@ -74,9 +74,9 @@ main{
     border: 1px solid #000;
     background: #DCE5E2;
    
-    color: #000;
+    color: white;
     font-family: Inter;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 21.6px; /* 120% */
