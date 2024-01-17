@@ -41,3 +41,7 @@ header{
   line-height: normal;
   text-decoration-line: none;  
 }
+
+.main{
+    margin: 30px;
+}
