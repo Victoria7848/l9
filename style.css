@@ -42,6 +42,43 @@ header{
   text-decoration-line: none;  
 }
 
-.main{
-    margin: 30px;
+main{
+    padding: 5%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 550px;
+    align-items: center;
+    margin-bottom: 120px;
+    border-radius: 32px;
+    background: #DCE5E2 top center / 100% repeat url(https://s3-alpha-sig.figma.com/img/8c93/0f67/ff48b15c32ab0f62b5692c95f233767e?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=mETcwihjX4vOd2hoPgYY8dZA3eegMjhn1C3KLr4wvtUtHUHTb3P-pOy-gpceq32n-taeiIRl7f2NMdUbdT8hi7oqhFR9CAgQletwEeu8pjewHB-OeKjzC73brhZZ6MTLDvTMcLiaThjS~j6xxA42cmcoBlz8F5x6pjo758a7MDjXriJelhZHjPO-FpAMHYPiKIvX3DQtpkszxUIuUW4SjDPdpgRs-Vux6hZvYoorYZpgga74RGK9IHyenK3uPRC2Diu6xCda6gLloGyfQuIgCOfq3Y5urOYjOZCndOQIYyjn3u7lEKSKn3Wd1bMFeNquOI2dpFFWOwW-cv~EPZbJLA__);
+}
+
+.block{
+    display: flex;
+    padding: 90px 54px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 44px;
+    flex-grow: 1;
+    align-self: stretch;
+}
+
+.button{
+    width: 234px;
+    height: 50px;
+    padding: 14px 85px;
+    border-radius: 200px;
+    border: 1px solid #000;
+    background: #DCE5E2;
+   
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px; /* 120% */
+    text-transform: capitalize;
 }
