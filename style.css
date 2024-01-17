@@ -1,25 +1,44 @@
-body {
-    font-family: sans-serif;
-    background-color: #F5F5F5;
+body{
+    margin: 0px; /* забираємо стандартні відступи в тега body */
 }
 
+/* Ваші стилі */
+
 header{
-  width: 1180px;
-  height: 85px;
-  background: #D9D9D9;
+   display: flex;
+   width: 1530px;
+   height: 80px;
+   padding: 0px 40px;
+   justify-content: space-between;
+   align-items: center;
+   flex-shrink: 0;
+   margin: 0 auto;
+   background: #D9D9D9;
 }
 
 .logo{
-  width: 144px;
-  height: 85px;
-  background: url(https://s3-alpha-sig.figma.com/img/2ed2/bb54/0b4e0613dcf5735823d395632b2686fb?Expires=1706486400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=b1Hrxb6oYspRUwwBcBSdTl8BvcXsyKW7SpQ-yIb1Jg4ICqqMIRp5o46eAt47n~36CkoCGd6bT~VDj57mMLXGmMpe9G5tHuOL686EpcBnIB8qZEZ1BWL-GKsTU~mvQ6dHuY~Ek5V1H7-NLGeUa~e5ylDSz~-Lp2XZ-k3qoDlPw4p80k5~adrWio-~oUIjVLNELpA0OiPzaKiRZY7mNPeGZFIgZrnrjI-LxiI6lqp-slZc9RTM9Zg8uulo7AG0Ln~BoRr39bJSHUopdNeX5jz60ahCrHaR1iSdn0FXSM1Q9HP5LKVGHfyBsgxzZJzhwO8ek05prSP5B8Xcq0E5cEC75g__), lightgray 50% / cover no-repeat;
+  width: 47px;
+  height: 46px;
+  flex-shrink: 0;
 }
 
 .menu{
+   display: flex;
+   height: 80px;
+   padding: 30px 0px;
+   justify-content: center;
+   align-items: center;
+   gap: 40px;
+   flex: 1 0 0;
+}
+
+.menu-elements{
   color: #000;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  text-decoration-line: none; 
+   
 }
