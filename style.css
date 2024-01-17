@@ -53,7 +53,7 @@ main{
     align-items: center;
     margin-bottom: 120px;
     border-radius: 32px;
-    background: url(<https://ds1.skrami.com/products/p856112_5aa52e872af33.jpg>), lightgray 50% / cover no-repeat;
+    background: #DCE5E2 top center / 50% repeat url(https://ds1.skrami.com/products/p856112_5aa52e872af33.jpg);
 }
 
 .block{
