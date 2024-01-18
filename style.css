@@ -129,3 +129,17 @@ a:hover{
     line-height: 21.6px; /* 120% */
 }
 
+.card-img{
+    width: 244px;
+    height: 214px;
+}
+
+.container-cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 72px;
+}
