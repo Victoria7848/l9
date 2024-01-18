@@ -146,5 +146,5 @@ a:hover{
 
 .container-cards:hover{
     background-color: #FFFAFA;
-    transition: 1s ease-in;
+    transition: 1s linear;
 }
