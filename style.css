@@ -72,13 +72,13 @@ main{
 }
 
 
-form {
+.form {
     display: block;
-    margin-top: 20 auto;
+    margin-top: 50px;
 }
 
 h2{
-   color: #FFF;
+   color: white;
    font-family: Inter;
    font-size: 30px;
    font-style: normal;
@@ -110,9 +110,6 @@ a:hover{
     line-height: 69.6px; /* 120% */
 }
 
-.text{
-    color: white;
-}
 
 .text-card{
     color: #000;
