@@ -199,10 +199,3 @@ footer p {
     background-color: white;
     padding: 5px;
  }
-
-div {
-  width: 300px;
-  height: 80px;
-  background-color: lightgreen;
-  display: flexbox;
-}
