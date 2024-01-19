@@ -152,6 +152,7 @@ a:hover{
 .gallery {
     padding: 15px;
     display: flexbox;
+    align-content: space-around;
 }
 
 
