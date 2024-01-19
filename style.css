@@ -145,9 +145,14 @@ a:hover{
 }
 
 .container-cards:hover{
-    background-color: #FFFAFA;
+    background-color: white;
     transition: 1s linear;
 }
+
+.gallery {
+    padding: 15px;
+}
+
 
 article {
     background-color: white;
