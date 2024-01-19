@@ -188,3 +188,21 @@ article {
 .gallery {
     padding: 15px;
 }
+
+footer {
+    background-color: rgb(218, 209, 209);
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+ }
+
+div {
+  width: 300px;
+  height: 80px;
+  background-color: lightgreen;
+  display: flexbox;
+}
