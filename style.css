@@ -149,27 +149,9 @@ a:hover{
     transition: 1s linear;
 }
 
-.gallery {
-    padding: 15px;
-    display: flexbox;
-    align-content: space-around;
-}
-
-
-article {
-    background-color: white;
-    padding: 5;
-    width: 200px;
-    margin: 0px;
-}
-
-.catalog {
-    display: flex;
-    justify-content: space-around;
+.info {
     flex-wrap: wrap;
-    width: 500px;
-    margin: 0 30px;
-    background-color: white;
+    margin: 0px;
 }
 
 .catalog a {
@@ -179,12 +161,29 @@ article {
     color: black;
 }
 
+article {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    margin: 0px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 30px;
+}
+
 .product {
-    width: 500px;
-    height: 370px;
+    width: 150px;
     text-align: center;
     padding: 5px;
-    border: 1px double gray;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.gallery {
+    padding: 15px;
 }
